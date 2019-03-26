@@ -1,0 +1,172 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>SaAngipolis/Seleccion de Boletos</title>
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+	<link href="https://fonts.googleapis.com/css?family=ZCOOL+QingKe+HuangYou" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Fira+Sans" rel="stylesheet">
+</head>
+<body>
+<nav class="navbar navbar-expand-lg navbar-light" style="background-color: #2EFEF7">
+  <a class="navbar-brand" href="#">SaAngipolis</a>
+  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+    <span class="navbar-toggler-icon"></span>
+  </button>
+
+ <div class="collapse navbar-collapse" id="navbarSupportedContent">
+    <ul class="navbar-nav mr-auto">
+      <li class="nav-item active">
+        <a class="nav-link" href="#">Home <span class="sr-only">current</span></a>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link" href="#">Link</a>
+      </li>
+      <li class="nav-item dropdown">
+        <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+          Dropdown
+        </a>
+        <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+          <a class="dropdown-item" href="#">Action</a>
+          <a class="dropdown-item" href="#">Another action</a>
+          <div class="dropdown-divider"></div>
+          <a class="dropdown-item" href="#">Something else here</a>
+        </div>
+      </li>
+      <li class="nav-item">
+        <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
+      </li>
+    </ul>
+    <form class="form-inline my-2 my-lg-0">
+      <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
+    </form>
+  </div>
+</nav>
+<!--cierre navbar-->
+
+<!--inicia seleccion de boletos-->
+<div class="alert alert-light" role="alert" >
+<p style="font-family: 'Fira Sans', sans-serif; text-align: center; font-size: 30px;">Compra y Reserva tus boletos</p><a href="#" class="alert-link"></a>.
+</div>
+<!--imagen de la pelicula-->
+ <div class="row">
+<div class="col-sm-6">
+<div class="card mb-3" style="max-width: 540px;">
+  <div class="row no-gutters">
+    <div class="col-md-4">
+      <img src="img/romeo.jpg" class="card-img" alt="...">
+    </div>
+
+    <div class="col-md-8">
+      <div class="card-body">
+        <h5 class="card-title">Sinopsis:</h5>
+        <p class="card-text">CINE:Saangipolis Toreo.</p>
+        <p>PELICULA: THE KING</p>
+        <p>FECHA: 15 de Julio</p>
+        <p>FUNCION: 8:00 P.M</p>
+        <p class="card-text"><small class="text-muted">Duracion: 110minutos</small></p>
+      </div>
+    </div>
+  </div>
+</div>
+</div><!--cierre del tarjetro-->
+
+<!--Tarjeta de SUBTOTAL-->
+
+<div class="col-sm-2">
+<div class="card border-primary mb-3" style="max-width: 18rem;">
+  <div class="card-header">SUBTOTAL</div>
+  <div class="card-body text-primary">
+    <h5 class="card-title"></h5>
+    <p class="card-text" style="text-align: center;">$0.00</p>
+      <p style="text-align: center;">IVA Incluido</p>
+    <button type="button" class="btn btn-outline-primary btn-block" style="text-align: center";>Cambiar Cine</button>
+  </div>
+</div>
+</div>
+</div>
+
+<!--seleccione cuantos boletos quiere-->
+<button type="button" class="btn btn-primary btn-lg btn-block">Seleccione cuantos boletos quiere</button>
+ <div class="row">
+<div class="col-sm-3">
+<br><br/>
+<p>Cantidad:</p>
+<br><br/>
+<p>3era edad</p>
+<br><br/>
+<p>Adultos</p>
+<br><br/>
+<p>Niños</p>
+</div>
+<!--botones s menos-->
+<div class="col-sm-2">
+<br><br/>
+<p>.</p>
+<div class="col-sm-1">
+<br><br/>
+<button type="" class="btn btn-outline-info">-</button>
+<br><br/>
+<button type="" class="btn btn-outline-info">-</button>
+<br><br/>
+<button type="" class="btn btn-outline-info">-</button>
+</div>
+</div>
+<!--Letras-->
+<div class="col-sm-1">
+<br>
+<p>Costo:</p>
+<div class="col-sm-1">
+<br><br/>
+<p>0</p>
+<br><br/>
+<p>1</p>
+<br><br/>
+<p>0</p>
+</div>
+</div>
+<!--Botones de mas-->
+<div class="col-sm-2">
+<br><br/>
+<p>.</p>
+<div class="col-sm-1">
+<br><br/>
+<button type="" class="btn btn-outline-info">+</button>
+<br><br/>
+<button type="" class="btn btn-outline-info">+</button>
+<br><br/>
+<button type="" class="btn btn-outline-info">+</button>
+</div>
+</div>
+<!--Subtotal-->
+<div class="col-sm-2">
+<br><br/>
+<p>Subtotal:</p>
+<div class="col-sm-1">
+<br><br/>
+<p>$00.00</p>
+<br><br/> 
+<p>$40.00</p>
+<br><br/>
+<p>$00.00</p>
+</div>
+</div>
+<!--total-->
+<div class="col-sm-2">
+<br><br/>
+<p>.</p>
+<div class="col-sm-1">
+<br><br/>
+<p>$0.00</p>
+<br><br/> 
+<p>$40.00</p>
+<br><br/>
+<p>$0.00</p>
+</div>
+</div>
+</div>
+
+
+    
+</body>
+</html>
